@@ -1,0 +1,20 @@
+RESTful Routes
+
+
+===========================================================================================================
+Name		|Path			|Verb		|Purpose
+===========================================================================================================
+Index		 /:page			 GET		 List all index in Admin page
+New		 /:page/new:page	 GET		 Show the new form for adding info in the page
+Create		 /:page		 	 POST		 Create a new items, then redirect somewhere
+Show		 /:page/:id	 	 GET		 Show info about particular item from the page
+Edit		 /:page/:id/edit	 GET		 Show edit form for the particular item
+Update		 /:page/:id		 PUT		 Update a particular item, then redirect somewhere
+Destroy		 /:page			 DELETE		 Delete a particular item, then redirect somewhere
+
+
+
+NOTE: (:page)
+customers	: 	/customers
+payments	: 	/payments
+map		:	/maps 

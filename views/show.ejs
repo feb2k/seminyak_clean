@@ -1,0 +1,34 @@
+<% include partials/header %>
+
+<div class="container">
+	<div class="jumbotron">
+		<div>
+			<h2><%= customer.firstName %> <%= customer.lastName %></h2>	
+		</div>
+		<div>
+			<h3><%= customer.phone %></h3>	
+		</div>
+		<div>
+			<h3><%= customer.email %></h3>	
+		</div>
+		<div>
+			<h5><%= customer.address1 %></h5>	
+		</div>
+		<div>
+			<h5><%= customer.address2 %></h5>	
+		</div>
+		<div>
+			<h5><%= customer.district %></h5>	
+		</div>
+		<div>
+			<h5><%= customer.subdistrict %></h5>	
+		</div>
+		<div>
+			<h5><%= customer.village %></h5>	
+		</div>
+	</div>
+</div>
+	
+
+
+<% include partials/footer %>

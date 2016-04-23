@@ -1,0 +1,27 @@
+body{
+	color: teal;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.container{
+
+}
+
+#container_newcustomer{
+	text-align: center;
+}
+
+#customer_detail{
+	margin-top: 10px;
+}
+
+#submit_button{
+	margin-top: 0.5em;
+	width: 30%;
+}
+
+.form-inline{
+	width: 100%;
+	margin-top: 0.5em;
+}
